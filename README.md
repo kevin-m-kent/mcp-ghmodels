@@ -15,3 +15,5 @@ Then set your `GITHUB_TOKEN` in your .env file, and you should be good to run it
 ```
 python client.py src/weather/server.py
 ```
+
+You can substitute in a different `MODEL` value in [client.py](client.py) to try the example with a different model in the [catalog](https://github.com/marketplace/models/catalog). 

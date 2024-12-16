@@ -22,7 +22,7 @@ import json
 
 load_dotenv()  # load environment variables from .env
 
-MODEL="gpt-4o"
+MODEL="mistral-large"
 
 class MCPClient:
     def __init__(self):
